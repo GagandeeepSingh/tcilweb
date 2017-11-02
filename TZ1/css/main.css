@@ -1,0 +1,154 @@
+/** Dropdown Submenu**/
+
+.dropdown-submenu {
+			    position: relative;
+			}
+
+			.dropdown-submenu > .dropdown-menu {
+			    top: 0;
+			    left: 100%;
+			    margin-top: -6px;
+			    margin-left: 0;
+			    border-radius: 0.25rem;
+			}
+
+			.dropdown-submenu:hover > .dropdown-menu {
+			    display: block;
+			}
+
+			.dropdown-submenu > a::after {
+				border-bottom: 0.3em solid transparent;
+				border-left-color: inherit;
+				border-left-style: solid;
+				border-left-width: 0.3em;
+				border-top: 0.3em solid transparent;
+				content: " ";
+				display: block;
+				float: right;
+				height: 0;
+				margin-right: -0.6em;
+				margin-top: -0.95em;
+				width: 0;
+			}
+
+			.dropdown-submenu.pull-left {
+			    float: none;
+			}
+
+			.dropdown-submenu.pull-left > .dropdown-menu {
+			    left: -75%;
+			}
+
+			.dropdown-menu .divider {
+				background-color: #e5e5e5;
+				height: 1px;
+				margin: 9px 0;
+				overflow: hidden;
+			}
+
+
+
+
+
+
+
+
+/** Dropdown Submenu End**/
+
+
+
+
+
+.f13 {
+	font-size: 13px;
+}
+.f14 {
+	font-size: 14px;
+}
+.fc{
+color: #0000ff !important;
+
+}
+.main-header{
+    
+    border-bottom: 2px solid #D6CDCA
+}
+
+
+.b{font-weight: bold;}
+.padt{padding-top: 0.5rem;}
+
+.toggle{font-size: 1rem; border:none;outline: none !important;}
+
+
+.nl {
+	color: #000 !important;
+}
+
+#hscroll {
+    overflow: auto;
+}
+
+.track3 {
+    width: 10px;
+    background: rgba(0, 0, 0, 0);
+    margin-right: 2px;
+    border-radius: 10px;
+    -webkit-transition: background 250ms linear;
+    transition: background 250ms linear;
+}
+
+.track3:hover,
+.track3.dragging {
+    background: #d9d9d9; 
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.handle3 {
+    width: 7px;
+    right: 0;
+    background: #999;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 7px;
+    -webkit-transition: width 250ms;
+    transition: width 250ms;
+}
+
+.track3:hover .handle3,
+.track3.dragging .handle3 {
+    width: 10px;
+}
+
+.nav-tcil{
+    font-size: 16px !important; 
+    margin-top: 15px !important;
+}
+#navbarTogglerDemo02{
+ font-size: 11px !important;   
+ margin-top: -25px !important;
+}
+.tsearch{
+ font-size:15px !important;
+    padding: 2px;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .card-header{
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+  .img-thumbnail{
+    background-color: transparent;
+  }
+.fdiv{
+    text-decoration: none !important;
+    color: #5959F6 !important;
+} 
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
